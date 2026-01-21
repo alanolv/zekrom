@@ -31,7 +31,7 @@ export default function Header() {
 
       <a
         href="/contacto"
-        className="flex items-center justify-center bg-yellow-500 text-black p-1 px-2 rounded-lg font-bold text-sm h-10"
+        className="flex items-center justify-center bg-yellow-500 text-black p-1 px-2 rounded-lg font-bold text-sm h-11"
       >
         Cotizar ahora
       </a>
