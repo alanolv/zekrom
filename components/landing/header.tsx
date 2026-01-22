@@ -12,9 +12,10 @@ export default function Header() {
           </span>
         </div>
       </div>
+
       <nav
         aria-label="Navegación principal"
-        className="flex gap-6 items-center justify-center"
+        className="flex hidden md:flex gap-6 items-center justify-center"
       >
         <ul className="flex gap-6">
           <li>
@@ -37,10 +38,13 @@ export default function Header() {
 
       <a
         href="/contacto"
-        className="flex items-center justify-center bg-yellow-500 text-black p-1 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100"
+        className="flex hidden md:flex items-center justify-center bg-yellow-500 text-black p-1 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100"
       >
         Cotizar ahora
       </a>
+      <button className="flex md:hidden items-center justify-center bg-yellow-500 text-black p-5 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100">
+        <Image src="/menu.svg" alt="menu" width={25} height={25} />
+      </button>
     </header>
   );
 }
