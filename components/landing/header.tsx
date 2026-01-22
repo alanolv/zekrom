@@ -18,20 +18,26 @@ export default function Header() {
       >
         <ul className="flex gap-6">
           <li>
-            <a href="/">Inicio</a>
+            <a href="#inicio" className="hover:text-yellow-500">
+              Inicio
+            </a>
           </li>
           <li>
-            <a href="/catalogo">Catálogo</a>
+            <a href="#catalogo" className="hover:text-yellow-500">
+              Catálogo
+            </a>
           </li>
           <li>
-            <a href="/contacto">Contacto</a>
+            <a href="#contacto" className="hover:text-yellow-500">
+              Contacto
+            </a>
           </li>
         </ul>
       </nav>
 
       <a
         href="/contacto"
-        className="flex items-center justify-center bg-yellow-500 text-black p-1 px-2 rounded-lg font-bold text-sm h-11"
+        className="flex items-center justify-center bg-yellow-500 text-black p-1 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100"
       >
         Cotizar ahora
       </a>
