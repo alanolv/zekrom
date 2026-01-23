@@ -22,8 +22,18 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#catalogo" className="hover:text-yellow-500">
-              Catálogo
+            <a href="#productos" className="hover:text-yellow-500">
+              Productos
+            </a>
+          </li>
+          <li>
+            <a href="#marcas" className="hover:text-yellow-500">
+              Marcas
+            </a>
+          </li>
+          <li>
+            <a href="#nosotros" className="hover:text-yellow-500">
+              Nosotros
             </a>
           </li>
           <li>
