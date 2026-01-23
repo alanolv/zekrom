@@ -4,3 +4,25 @@
   --color-primary: #fab313;
   --color-secondary: #0ea5e9;
 }
+
+/* About Us Background */
+#about-container {
+  background: #00adef;
+  /* Fallback */
+  background: radial-gradient(circle at center, #0ea5e9 0%, #0284c7 100%);
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+#about-container-inside {
+  position: relative;
+  min-width: 960px;
+  max-width: 1280px;
+  height: auto;
+  min-height: 100%;
+  margin: 0px auto;
+  padding: 0px auto;
+  overflow: visible;
+}
