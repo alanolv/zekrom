@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex justify-between px-5 py-3 border-b border-gray-300 items-center fixed top-0 w-full z-50 bg-white">
+    <header className="flex justify-between px-5 py-3 border-b border-gray-300 items-center fixed top-0 w-full z-50 bg-white shadow-lg">
       <div className="flex items-center gap-5">
         <Image src="/tooth.svg" alt="logo" width={40} height={40} />
         <div className="flex flex-col items-start">
@@ -13,7 +13,7 @@ export default function Header() {
 
       <nav
         aria-label="Navegación principal"
-        className="flex hidden md:flex gap-6 items-center justify-center"
+        className="flex hidden lg:flex gap-6 items-center justify-center"
       >
         <ul className="flex gap-6">
           <li>
@@ -46,11 +46,11 @@ export default function Header() {
 
       <a
         href="/contacto"
-        className="flex hidden md:flex items-center justify-center bg-primary text-black p-1 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100"
+        className="flex hidden lg:flex items-center justify-center bg-primary text-black p-1 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100"
       >
         Cotizar ahora
       </a>
-      <button className="flex md:hidden items-center justify-center bg-primary text-black p-5 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100">
+      <button className="flex lg:hidden items-center justify-center bg-primary text-black p-5 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100">
         <Image src="/menu.svg" alt="menu" width={25} height={25} />
       </button>
     </header>
