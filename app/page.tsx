@@ -1,4 +1,4 @@
-import Hero from "../components/layout/Hero";
+import Hero from "../components/landing/Hero";
 import Products from "../components/landing/products";
 
 export default function Home() {

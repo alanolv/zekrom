@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex justify-between px-5 py-3 border-b border-gray-300 items-center">
+    <header className="flex justify-between px-5 py-3 border-b border-gray-300 items-center fixed top-0 w-full z-50 bg-white">
       <div className="flex items-center gap-5">
         <Image src="/tooth.svg" alt="logo" width={40} height={40} />
         <div className="flex flex-col items-start">
