@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="mx-auto px-5 py-24 " aria-labelledby="hero-heading">
+    <section className="mx-auto px-5 py-20 sm:py-24 md:py-20 lg:py-12 " aria-labelledby="hero-heading">
       <div className="flex flex-col md:flex-row items-center gap-16 justify-center mx-auto">
         {/* Texto */}
         <div className="flex flex-col items-center text-center md:items-start md:text-left ">

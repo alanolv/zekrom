@@ -27,13 +27,13 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#marcas" className="hover:text-yellow-500">
-              Marcas
+            <a href="#nosotros" className="hover:text-yellow-500">
+              Nosotros
             </a>
           </li>
           <li>
-            <a href="#nosotros" className="hover:text-yellow-500">
-              Nosotros
+            <a href="#marcas" className="hover:text-yellow-500">
+              Marcas
             </a>
           </li>
           <li>
