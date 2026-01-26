@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 import products from "./data/productCategory";
 
@@ -14,7 +14,7 @@ export default function Products() {
                 {products.map((product) => (
                     <div key={product.title} className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow group">
                         <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                            <Image src="/tooth.svg" alt="" width={24} height={24} className="text-primary" />
+                            <product.icon className="w-6 h-6 text-primary" />
                         </div>
                         <h3 className="text-xl font-bold text-gray-900 mb-3">{product.title}</h3>
                         <p className="text-gray-600 leading-relaxed">{product.description}</p>
