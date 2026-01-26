@@ -3,7 +3,7 @@ import { Truck, Clock, ShieldCheck } from "lucide-react";
 
 export default function About() {
     return (
-        <section className="relative w-full overflow-hidden py-20" aria-labelledby="about-heading" id="about-container">
+        <section className="relative w-full overflow-hidden py-20 bg-primary" aria-labelledby="about-heading" id="about-container">
             <div id="about-container-inside" className="flex items-center justify-center relative z-10 w-full">
                 {/* Liquid Glass Background Elements */}
                 <div className="absolute top-10 left-10 opacity-10 rotate-12 transform scale-150 blur-[1px] pointer-events-none">
