@@ -45,7 +45,7 @@ export default function Header() {
       </nav>
 
       <a
-        href="/contacto"
+        href="#contacto"
         className="flex hidden lg:flex items-center justify-center bg-primary text-black p-1 px-2 rounded-lg font-bold text-sm h-11 hover:text-gray-100"
       >
         Cotizar ahora
