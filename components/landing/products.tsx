@@ -4,7 +4,7 @@ import products from "./data/productCategory";
 
 export default function Products() {
     return (
-        <section className="mx-auto px-5 py-10 " aria-labelledby="products-heading">
+        <section id="productos" className="mx-auto px-5 py-10 " aria-labelledby="products-heading">
             <div className="flex flex-col md:col-row items-center  justify-center mx-auto">
                 <span className="text-2xl font-bold tracking-tight text-primary text-center">Nuestros Productos</span>
                 <h2 className="text-4xl font-bold tracking-tight text-gray-900 text-center">Categorias de productos</h2>
