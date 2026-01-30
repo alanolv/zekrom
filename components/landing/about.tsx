@@ -5,7 +5,7 @@ export default function About() {
     return (
         <section
             id="nosotros"
-            className="relative w-full bg-primary py-20"
+            className="relative w-full bg-primary py-20 lg:py-2"
             aria-labelledby="about-heading"
         >
             {/* Background decorations wrapper */}
