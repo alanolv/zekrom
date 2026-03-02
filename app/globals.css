@@ -26,3 +26,27 @@
   padding: 0px auto;
   overflow: visible;
 }
+
+/* Mobile Menu Animations */
+.mobile-menu-open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobile-menu-closed {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mobile-menu-item {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.mobile-menu-item-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
