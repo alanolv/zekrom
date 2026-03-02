@@ -40,14 +40,14 @@ export default function Contact() {
                 </p>
             </div>
 
-            <div className="flex flex-col lg:flex-row items-stretch gap-12 justify-center max-w-7xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-12 justify-center max-w-7xl mx-auto">
                 {/* Mapa de Google */}
-                <div className="w-full lg:w-1/2 min-h-[400px] lg:min-h-0 rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.45479748678085!2d-100.37922654300931!3d20.576752354005873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d344c5eba96e33%3A0x8118cede5e850487!2sDeposito%20dental%20plazas%20del%20Sol!5e0!3m2!1ses-419!2smx!4v1769706662999!5m2!1ses-419!2smx" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <div className="w-full max-w-xl lg:max-w-none lg:w-1/2 min-h-[400px] lg:min-h-0 rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.45479748678085!2d-100.37922654300931!3d20.576752354005873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d344c5eba96e33%3A0x8118cede5e850487!2sDeposito%20dental%20plazas%20del%20Sol!5e0!3m2!1ses-419!2smx!4v1769706662999!5m2!1ses-419!2smx" className="w-full h-full" style={{ border: 0, minHeight: '400px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
                 {/* Formulario */}
-                <div className="w-full lg:w-1/2 max-w-xl bg-white p-8 rounded-2xl shadow-lg border border-gray-100 flex flex-col justify-center">
+                <div className="w-full max-w-xl lg:max-w-none lg:w-1/2 bg-white p-8 rounded-2xl shadow-lg border border-gray-100 flex flex-col justify-center">
                     <form onSubmit={handleSubmit} className="space-y-6">
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
